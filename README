@@ -1,0 +1,59 @@
+Dvorak keyboard layout
+======================
+
+This layout is intended for use with Western European languages.
+
+
+Coverage
+--------
+
+Typing should be of comparable ease to the following specialized layouts.
+
+QWERTY:
+- Danish
+- Dutch
+- English
+- Faroese
+- Icelandic
+- Irish
+- Italian
+- Norwegian
+- Portugese
+- Spanish
+- Swedish
+QWERTZ:
+- German
+- Swiss
+AZERTY:
+- French
+
+A symbolic variant is provided that recreates the us(symbolic) layout for
+the Dvorak key arrangement.
+
+
+Installation
+------------
+
+System-wide installation is possible by copying the `symols` and `rules`
+directories to `$XKB_CONFIG_EXTRA_PATH` (typically `/etc/xkb`).
+User-specific installation is possible by copying the `symols` and `rules`
+directories to `$XDG_CONFIG_HOME/xkb/` (typically `$HOME/.config/xkb`).
+
+Note that if an `evdev.xml` rules file is already present, its contents
+need to be merged with those in the rules file provided here.
+
+
+Layout
+------
+
+~ ~   ! ¡   @ à   # ¤   $ ¥   % ¢   ^ ˆ   & ˇ   * ×   ( ‘   ) ’   { “   } ”
+` `   1 ¹   2 ²   3 ³   4 £   5 €   6 ¼   7 ½   8 ¾   9 ˘   0 °   [ «   ] »
+
+      " ¨   < ≤   > ≥   P §   Y É   F ª   G G   C Ç   R ©   L Ł   _ ¯   + ±
+      ' ´   , ˙   . ·   p ¶   y é   f º   g g   c ç   r ®   l ł   - –   = ≠
+
+      A Ä   O Ö   E Ë   U Ü   I Ï   D Ð   H H   T Þ   N Ñ   S ẞ   ? ¿   | …
+      a ä   o ö   e ë   u ü   i ï   d ð   h h   t þ   n ñ   s ß   / ÷   \ ¬
+
+> ⟩   : Å   Q Ø   J Æ   K Œ   X È   B B   M λ   W W   V V   Z Z
+< ⟨   ; å   q ø   j æ   k œ   x è   b b   m µ   w w   v v   z z
