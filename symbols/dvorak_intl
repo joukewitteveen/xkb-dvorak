@@ -1,8 +1,8 @@
-//  ~ ~   ! ¡   @ à   # ¤   $ ¥   % ¢   ^ ˆ   & ˇ   * ×   ( ‘   ) ’   { “   } ”
+//  ~ ~   ! ¡   @ ª   # º   $ ¥   % ¢   ^ ˆ   & ˇ   * ×   ( ‘   ) ’   { “   } ”
 //  ` `   1 ¹   2 ²   3 ³   4 £   5 €   6 ¼   7 ½   8 ¾   9 ˘   0 °   [ «   ] »
 //
-//        " ¨   < ≤   > ≥   P §   Y É   F ª   G G   C Ç   R ©   L Ł   _ ¯   + ±
-//        ' ´   , ˙   . ·   p ¶   y é   f º   g g   c ç   r ®   l ł   - –   = ≠
+//        " ¨   < ≤   > ≥   P §   Y É   F F   G À   C Ç   R ©   L Ł   _ ¯   + ±
+//        ' ´   , ˙   . ·   p ¶   y é   f f   g à   c ç   r ®   l ł   - –   = ≠
 //
 //        A Ä   O Ö   E Ë   U Ü   I Ï   D Ð   H H   T Þ   N Ñ   S ẞ   ? ¿   | …
 //        a ä   o ö   e ë   u ü   i ï   d ð   h h   t þ   n ñ   s ß   / ÷   \ ¬
@@ -17,8 +17,8 @@ xkb_symbols "altgr-intl" {
     key <TLDE> { [        grave,   asciitilde,       dead_grave,       dead_tilde ] };
 
     key <AE01> { [            1,       exclam,      onesuperior,       exclamdown ] };
-    key <AE02> { [            2,           at,      twosuperior,           agrave ] };
-    key <AE03> { [            3,   numbersign,    threesuperior,         currency ] };
+    key <AE02> { [            2,           at,      twosuperior,      ordfeminine ] };
+    key <AE03> { [            3,   numbersign,    threesuperior,        masculine ] };
     key <AE04> { [            4,       dollar,         sterling,              yen ] };
     key <AE05> { [            5,      percent,         EuroSign,             cent ] };
     key <AE06> { [            6,  asciicircum,       onequarter,  dead_circumflex ] };
@@ -34,8 +34,8 @@ xkb_symbols "altgr-intl" {
     key <AD03> { [       period,      greater,   periodcentered, greaterthanequal ] };
     key <AD04> { [            p,            P,        paragraph,          section ] };
     key <AD05> { [            y,            Y,           eacute,           Eacute ] };
-    key <AD06> { [            f,            F,        masculine,      ordfeminine ] };
-    key <AD07> { [            g,            G ] };
+    key <AD06> { [            f,            F ] };
+    key <AD07> { [            g,            G,           agrave,           Agrave ] };
     key <AD08> { [            c,            C,         ccedilla,         Ccedilla ] };
     key <AD09> { [            r,            R,       registered,        copyright ] };
     key <AD10> { [            l,            L,          lstroke,          Lstroke ] };
