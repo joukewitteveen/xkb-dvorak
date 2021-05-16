@@ -70,6 +70,8 @@ xkb_symbols "altgr-intl" {
 
     key <SPCE> { [        space,        space,     nobreakspace,     nobreakspace ] };
 
+    key <DELE> { [       Delete,       Delete,           Insert,           Insert ] };
+
     include "level3(ralt_switch)"
 };
 
